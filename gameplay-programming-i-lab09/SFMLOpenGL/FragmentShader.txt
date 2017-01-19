@@ -1,0 +1,10 @@
+#version 400
+
+in vec4 color;
+out vec4 fColor;
+void main() 
+{
+	fColor.x = color.x * 0.8f;
+	fColor.y = color.y + 0.6f;
+	fColor.z = 0.7f;
+}
